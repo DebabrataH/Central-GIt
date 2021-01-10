@@ -4,7 +4,7 @@
 #    print(sourceFilesNames[x] + " - " + destinationFilesNames[x])
 
 source = [10,22,43,55,65,65,156,48,2544,1]
-dest = [42,51,67,76,98,12,45,20]
+dest = [42,51,67,76,98,12,45,20,25]
 '''
 print(source[0] + dest[0])
 print(source[0] + dest[1])

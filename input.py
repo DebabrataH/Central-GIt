@@ -13,7 +13,7 @@ Average = (a+b)/2
 print("The Final value will be: ", Average)
 '''
 
-for i in range(5):
+for i in range(8):
     a = input("enter the value {}: ".format(i+1))
     A = int(a*2)
     print('The square value of\n{}'.format(A))
