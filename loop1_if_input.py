@@ -1,4 +1,4 @@
-
+'''
 colors = [ 'Red', 'Green', 'Blue' ]
 Blue = 'remote'
 Red  = 'mouse'
@@ -21,3 +21,10 @@ else:
     # else:
     #     print("not sure")
 
+'''
+
+
+a = ["Dev", "Avik", "Saikat", "Sachin", "Sourav"]
+for name in a:
+    if name.startswith ("S"):
+        print("Hello " + name)

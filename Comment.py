@@ -26,6 +26,4 @@ room''')
 # pip install playsound MODULE OR LIBRARY not installating in Mac. What's the other solution? 
 
 # from playsound import playsound
-playsound("/Volumes/WD/Music/Airline.mp3")
-
-
+# playsound("/Volumes/WD/Music/Airline.mp3")

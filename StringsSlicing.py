@@ -1,3 +1,4 @@
+'''
 Title = "Hello Dev"
 Greeting = "How r u ?"
 
@@ -21,14 +22,16 @@ print(A[0: : 2])  # 2 means it will print 1 letter and skip 1 letter (Remote)
 
 # Strings Functions 
 Hackintosh = "it's very easy to install now a days"
+
 print(len(Hackintosh))  # it will print the total no to charecter including space = 36
 print(Hackintosh.endswith("a days")) # if the sentence will end "a days" it will print True else False.3
 print(Hackintosh.count("s")) # it will count how many times "s" has been used.
 print(Hackintosh.count("now")) # it will count how many times "now" word used.
 print(Hackintosh.capitalize()) # Capitalize() function will make the 1st letter capital.
 print(Hackintosh.replace("easy", "difficult")) 
-''' it will replace the easy word to difficult, 
-    no matter how many times i used that word '''
+''' 
+# it will replace the easy word to difficult, 
+#     no matter how many times i used that word '''
 
 # Escape Secuence (\n means it will print in second line)
 A = "I am Debabrata. \nI am learning python"
@@ -39,10 +42,24 @@ B = "Python is not easy to learn, but I am \ttrying to learn"
 print(B)  
    
 '''
-\'	Single Quote	
-\\	Backslash	
-\n	New Line	
-\r	Carriage Return	
-\t	Tab
+# \'	Single Quote	
+# \\	Backslash	
+# \n	New Line	
+# \r	Carriage Return	
+# \t	Tab
 
 '''
+
+# To make all capital 
+
+Dev = 'video editor'
+print(Dev.upper())
+
+'''
+
+
+Name = "Dev"
+Age = 35
+
+# print("My name is %s and my age is %d" % (Name, Age)
+# print("My name is " + Name + " and my age is " + str(Age))

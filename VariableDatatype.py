@@ -7,7 +7,7 @@ Written in either single quotes or double quotes (as long as they match).
 The quote marks aren’t printed when the string is displayed.
 
 '''
-
+'''
 # Variable
 
 # Strings (str) Variable name cannot be start with no. expample : 01a , 22a, 2288a, @a
@@ -19,20 +19,36 @@ b = 123456
 # Float (No) means desimal no
 c = 15.56
 
+# Complex
+'''
+z = 10j
+print(type(z))
+
+'''
+
 # Booleans = True or False
-d = True
-e = False
+# d = True
+# e = False
 
 # None
 
 
 # printing the variables
-print(a)
-print(b)
-print(c)
-print(d)
+# print(a)
+# print(b)
+# print(c)
+# print(d)
 
 # Printing the type of variables : str or float or int or booleans
 
-print(type(d))
+# print(type(d))
 
+# To make all capital 
+
+Dev = 'video editor'
+Dev.upper()
+
+'''
+
+s,g,h = 29,34,45
+print(s,g,h)

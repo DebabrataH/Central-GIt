@@ -1,4 +1,4 @@
-l1 = [1,5,8,10,15,20,3,100]
+# l1 = [1,5,8,10,15,20,3,100]
 # print(l1)
 
 # l1.sort() #sort the list [1, 3, 5, 8, 10, 15, 20, 100]
@@ -40,8 +40,31 @@ print(FrouitList)
 
 '''
 
-Sumno = [10, 15, 16, 17]
-print(sum(Sumno))
+# Sumno = [10, 15, 16, 17]
+# print(sum(Sumno))
 
-a = (1, 2, 0, 0, 6 )
-print(a.count(0))
+# a = (1, 2, 0, 0, 6 )
+# print(a.count(0))
+
+# tuple cant change
+# a = (2,3,5,3)
+# a[0] = 13
+
+# a = [3,5,5,7,8]
+# print(sum(a))
+
+# language =["Go", "Python"]
+# language =("Go", "Python")
+# print(language *3)
+
+# print("Go" in language, "Ruby" in language) # it will show :Go = True and Ruby = False 
+
+# print(language + ["PHP", "C++"]) # it will add PHP and C++ with GO and Python
+# print(language + ["PHP", "C++"]) # it will Not add PHP and C++ with GO and Python because its tuple= language =("Go", "Python")
+
+list = [x**2 for x in [1,2,3,4,5]]
+print(list)   # list will be print after multiplying with 2 
+
+# to reverse
+Computer = ["Ram", "HD", "Monitor", "Keyboard"]
+print(Computer[::-1])
